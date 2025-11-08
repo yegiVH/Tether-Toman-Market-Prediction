@@ -1,4 +1,4 @@
-````markdown
+
 # 📈 Tether–Toman Market Prediction
 
 This project predicts **short-term price movements** in the **Tether to Toman (USDT–IRT)** exchange rate using classical machine learning techniques.
@@ -167,4 +167,3 @@ Tether-Toman-Market-Prediction/
 * Tune hyperparameters with `GridSearchCV` or `Optuna`
 * Deploy the model using a REST API (FastAPI or Flask)
 
----
