@@ -9,7 +9,7 @@ It includes data cleaning, feature engineering (CCI, RSI, MACD), model training,
 
 ##  Setup
 
-### 1️⃣ Create and activate a virtual environment (Windows example)
+### Create and activate a virtual environment (Windows example)
 ```bash
 python -m venv venv
 venv\Scripts\Activate
@@ -76,7 +76,7 @@ Example output:
 [INFO] Training pipeline completed successfully.
 ```
 
-### ▶️ Generate predictions
+### Generate predictions
 
 ```bash
 python -m src.predict_next_minute
@@ -130,7 +130,7 @@ Tether-Toman-Market-Prediction/
 
 ---
 
-## 🧩 Feature Engineering
+## Feature Engineering
 
 | Feature                                             | Description                                           |
 | --------------------------------------------------- | ----------------------------------------------------- |
@@ -145,7 +145,7 @@ Tether-Toman-Market-Prediction/
 
 ---
 
-## 📊 Model Summary
+## Model Summary
 
 | Parameter                 | Value                  |
 | ------------------------- | ---------------------- |
@@ -157,6 +157,7 @@ Tether-Toman-Market-Prediction/
 | bootstrap                 | False                  |
 | Cross-validation accuracy | ~0.84                  |
 | Test accuracy             | ~0.51                  |
+
 
 
 
