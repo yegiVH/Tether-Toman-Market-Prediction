@@ -158,12 +158,6 @@ Tether-Toman-Market-Prediction/
 | Cross-validation accuracy | ~0.84                  |
 | Test accuracy             | ~0.51                  |
 
----
 
-## 🧠 Next Steps
 
-* Add more financial indicators (moving averages, volatility, lag features)
-* Compare models (XGBoost, LightGBM, CatBoost)
-* Tune hyperparameters with `GridSearchCV` or `Optuna`
-* Deploy the model using a REST API (FastAPI or Flask)
 
