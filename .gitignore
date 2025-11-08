@@ -1,0 +1,54 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.egg-info/
+.venv/
+venv/
+.env
+
+# ==========================
+# Jupyter
+# ==========================
+.ipynb_checkpoints/
+
+# ==========================
+# OS / Editor
+# ==========================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# ==========================
+# Data
+# ==========================
+# Ignore raw and test data, but allow documentation
+data/*
+!data/README.md
+!data/sample/*
+
+# ==========================
+# Models
+# ==========================
+models/*
+!models/README.md
+
+# ==========================
+# Results / Plots
+# ==========================
+results/*
+!results/.gitkeep
+!results/*.png
+
+# ==========================
+# Other
+# ==========================
+# Temporary files from experiments
+*.tmp
+*.bak
+*.swp
